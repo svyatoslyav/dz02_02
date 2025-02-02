@@ -8,3 +8,5 @@ elif choice == "2":
 elif choice == "3":
     name = names.mnames + names.wnames
     print(name[random.randint(0, 40)])
+else:
+    print("Такої команди нема")
